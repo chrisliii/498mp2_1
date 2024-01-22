@@ -17,4 +17,4 @@ def get_seed():
 
 if __name__ == '__main__':
    os.environ["SEED"] = "0"
-   app.run(debug = True, port=80)
+   app.run(debug = True, port=80, host='0.0.0.0')
